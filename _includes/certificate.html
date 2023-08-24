@@ -1,0 +1,51 @@
+<section id="certifications" class="bg-light-gray">
+  
+  <!-- Start of container -->
+  <div class="container">
+      
+      <!-- Certifications Header -->
+      <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Certifications</h2>
+        </div>
+      </div>
+
+      <!-- Certificates Row -->
+      <div class="row text-center">
+        {% for cert in site.certifications %}
+          <div class="col-md-6">
+              <img class="text-center" src="img/certifications/{{ cert.img }}" alt="" style="margin-top: 10px;">
+              <h4 class="service-heading">{{ cert.name }}</h4>
+              <p class="text-muted">Received {{ cert.received }}</p>
+              <a href="{{ cert.url }}">
+                <button type="button" class="btn btn-info">View Certificate</button>
+              </a>
+          </div>
+        {% endfor %}
+      </div>
+      <!-- End of Certificates -->
+
+      <!-- Certifications Header -->
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Udemy Certificates</h2>
+        </div>
+      </div>
+
+      <!-- Start of udemy certifications -->
+      <div class="row text-center" style="margin-top: 40px;">
+          {% for cert in site.udemy-certifications %}
+          <div class="col-md-4">
+              <img class="" src="img/certifications/{{ cert.img }}" width="200px" height="200px">
+              <h4 class="service-heading">{{ cert.name }}</h4>
+              <p class="text-muted">Received {{ cert.received }}</p>
+              <a href="{{ cert.url }}">
+                <button type="button" class="btn btn-info">View Certificate</button>
+              </a>
+          </div>
+          {% endfor %}
+      </div>
+      <!-- End of Udemy certificates -->
+
+  </div>
+</section>

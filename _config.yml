@@ -2,63 +2,40 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Tresten Pool
+email: trestenpool@gmail.com
+description: "Backend Software engineer"
 
+# certifications
+certifications:
+  - name: AWS Cerfified Cloud Practicioner
+    url: https://www.credly.com/badges/70b777ce-3bd5-42a3-94e4-379d01667958
+    img: aws-cloud-practicioner.jpeg
+    description: AWS Foundational certification
+    received: August 2023
+  - name: Microsoft Certified Azure Fundamentals
+    url: https://www.credly.com/badges/0be18762-a549-467b-9f9c-6a77cccbc69e
+    img: azure-fundamentals.png
+    description: Azure Fundamentals certification
+    received: August 2022
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+udemy-certifications:
+  - name: Python Django Dev to Deployment
+    url: https://www.udemy.com/certificate/UC-fd79a2f4-e21a-4c2a-8bc0-47545c08a5c6/
+    img: django-course.png
+    description: Python Django course
+    received: May 2023
+  - name: Web Developer Bootcamp 2022
+    url: https://www.udemy.com/certificate/UC-dd0520a4-ecd3-4530-9187-107bc7820818/
+    img: web-developer-bootcamp.jpeg
+    description: Web Developer bootcamp course
+    received: January 2023
+  - name: C Programming Master the C Language
+    url: https://www.udemy.com/certificate/UC-7aa643ad-5675-429f-bccd-d4d41e2cf33a/
+    img: c-language.png
+    description: C language tutorial
+    received: June 2022
+  
 
 # Build settings
 markdown: kramdown

@@ -1,15 +1,16 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Yelp Camp
+subtitle: Udemy Web Developer Project
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 07-2022
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: January 2023
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: Built this using ExpressJS for the backened and bootstrap 5 for the frontend UI
+github_url: https://github.com/TrestenPool/YelpCamp
+site_url: https://yelpcamp-148183.herokuapp.com/
 ---
