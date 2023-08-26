@@ -6,6 +6,9 @@ title: Tresten Pool
 email: trestenpool@gmail.com
 description: "Backend Software engineer"
 
+# Resume set
+resume: "Resume_08_23.pdf"
+
 # certifications
 certifications:
   - name: AWS Cerfified Cloud Practicioner
