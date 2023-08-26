@@ -19,6 +19,7 @@ certifications:
     description: Azure Fundamentals certification
     received: August 2022
 
+# udemy certifications
 udemy-certifications:
   - name: Python Django Dev to Deployment
     url: https://www.udemy.com/certificate/UC-fd79a2f4-e21a-4c2a-8bc0-47545c08a5c6/
@@ -35,7 +36,6 @@ udemy-certifications:
     img: c-language.png
     description: C language tutorial
     received: June 2022
-  
 
 # Build settings
 markdown: kramdown

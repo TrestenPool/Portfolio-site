@@ -8,6 +8,9 @@
                     </div>
                 </div>
             </div>
+            
+
+            <!-- Container -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -21,7 +24,7 @@
                                 {% if post.github_url %}
                                 <li>
                                   <a href="{{ post.github_url }}" target="_blank">
-                                    <button type="button" class="btn btn-info"><i class="fa fa-github fa-4x" style="color: #000000; margin: 5px 5px;"></i>Link to Github Repo</button>
+                                    <button type="button" class="btn btn-info"><i class="fa fa-github fa-2x" style="color: #000000; margin: 5px 5px;"></i>Link to Github Repo</button>
                                   </a>
                                 </li>
                                 {% endif %}
@@ -29,7 +32,7 @@
                                 {% if post.site_url %}
                                 <li>
                                   <a href="{{ post.site_url }}" target="_blank">
-                                    <button type="button" class="btn btn-info"><i class="fa fa-television fa-4x" style="color: #000000; margin: 5px 5px;"></i>Link to Site</button>
+                                    <button type="button" class="btn btn-info"><i class="fa fa-television fa-2x" style="color: #000000; margin: 5px 5px;"></i>Link to Site</button>
                                   </a>
                                 </li>
                                 {% endif %}
@@ -39,6 +42,9 @@
                     </div>
                 </div>
             </div>
+            <!-- End of container -->
+
+
         </div>
     </div>
 {% endfor %}
