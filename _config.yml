@@ -39,6 +39,12 @@ udemy-certifications:
     img: c-language.png
     description: C language tutorial
     received: June 2022
+  - name: Spring Boot 3, Spring 6 & Hibernate for Beginners
+    url: https://www.udemy.com/certificate/UC-68abe4b0-8176-4607-8d56-06056bb4d770/
+    img: spring-course.png
+    description: Spring Boot beginner course
+    received: October 2023
+    
 
 # Build settings
 markdown: kramdown
